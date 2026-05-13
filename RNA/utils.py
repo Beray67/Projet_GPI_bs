@@ -1,0 +1,6 @@
+def parsePDB(file_name):
+    RNA = 'RNA found in' + file_name
+    return RNA
+
+def generate_dot_bracket(model):
+    print('Dot-bracket notation of the ' + model)
